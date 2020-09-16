@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+div {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    padding: 50px;
+    background-color: rgb(88, 88, 145);
+}
+#box1:hover {
+    background-color: green;
+}
+#box2:hover {
+    color: brown;
+    transform: rotate(180deg);
+}
+#box3:hover {
+    height: 500px;
+}
+#box4:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#box5 {
+    transition: background-color 1s ease-in-out 1s;
+}
+#box5:hover {
+    background-color: firebrick;
+}
+#box6:hover {
+    margin: 100px;
+    opacity: 20%;
+}
